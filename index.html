@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous" />
+            <link href="https://seller.esku.ai/assets/css/style.css?t=1729647637" rel="stylesheet"/>
+        <link rel="stylesheet" href="styles.css" />
+        <title>Orders View</title>
+    </head>
+    <body class="bg-body-tertiary">
+        <div class="container">
+            <main>
+                <div class="py-5 text-left">
+                    <h2>Orders View</h2>
+                </div>
+                <div class="row g-5">
+                    <div class="col-md-7 col-lg-8">
+                        <h4 class="mb-3">Order information</h4>
+                        <form class="needs-validation" novalidate>
+                            <div class="row g-3">
+                                <div class="col-sm-3">
+                                    <label for="firstName" class="form-label"
+                                        >Order №</label
+                                    >
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="order"
+                                        placeholder=""
+                                        value="2345678"
+                                        required />
+                                </div>
+
+                                <div class="col-sm-3">
+                                    <label for="lastName" class="form-label"
+                                        >Channel order</label
+                                    >
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="channelOrder"
+                                        placeholder=""
+                                        value="67654343256777"
+                                        required />
+                                </div>
+
+                                <div class="col-sm-2">
+                                    <label for="firstName" class="form-label"
+                                        >Status</label
+                                    >
+                                    <input
+                                        type="text"
+                                        class="form-control text-success"
+                                        id="orderStatus"
+                                        placeholder=""
+                                        value="Completed"
+                                        required />
+                                </div>
+                                <div class="col-sm-4">
+                                    <label for="firstName" class="form-label"
+                                        >Purchase date</label
+                                    >
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="purchaseDate"
+                                        placeholder=""
+                                        value="Sun, Oct 6, 2024, 12:06 PM PDT"
+                                        required />
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label for="lastName" class="form-label"
+                                        >Ship by</label
+                                    >
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="shipBy"
+                                        placeholder=""
+                                        value="Sun, Oct 6, 2024, 5:30 PM PDT"
+                                        required />
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label for="firstName" class="form-label"
+                                        >Sales Channel</label
+                                    >
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="salesChannel"
+                                        placeholder=""
+                                        value="Amazon US (Deals By Case)"
+                                        required />
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label for="lastName" class="form-label"
+                                        >Fulfillment</label
+                                    >
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="fulfillment"
+                                        placeholder=""
+                                        value="Amazon"
+                                        required />
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label for="firstName" class="form-label"
+                                        >Shipping Service</label
+                                    >
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="shippingService"
+                                        placeholder=""
+                                        value="Expedited"
+                                        required />
+                                </div>
+                            </div>
+
+                            <hr class="my-4" />
+
+                            <div class="row g-3">
+                                <div class="col-sm-5">
+                                    <label for="fullname" class="form-label"
+                                        >Fullname</label
+                                    >
+                                    <div class="input-group has-validation">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="fullname"
+                                            placeholder="Fullname"
+                                            value="John Does"
+                                            required />
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-3">
+                                    <label for="Tel" class="form-label"
+                                        >Telephone number
+                                    </label>
+                                    <input
+                                        type="Tel"
+                                        class="form-control"
+                                        id="Tel"
+                                        placeholder=""
+                                        value="(718) 555-1212 " />
+                                </div>
+
+                                <div class="col-sm-4">
+                                    <label for="email" class="form-label"
+                                        >Email
+                                    </label>
+                                    <input
+                                        type="email"
+                                        class="form-control"
+                                        id="email"
+                                        placeholder="you@example.com"
+                                        value="joh.doe@google.com" />
+                                </div>
+
+                                <div class="col-sm-4">
+                                    <label for="address" class="form-label"
+                                        >Address</label
+                                    >
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="address"
+                                        placeholder=""
+                                        value="1234 Main Street Apt. 1A"
+                                        required />
+                                </div>
+
+                                <div class="col-md-4">
+                                    <label for="country" class="form-label"
+                                        >Country</label
+                                    >
+                                    <input
+                                    type="text"
+                                    class="form-control"
+                                        id="country"
+                                        required
+                                        value="United States of America">
+                                    </input>
+                                </div>
+
+                                <div class="col-md-2">
+                                    <label for="state" class="form-label"
+                                        >State</label
+                                    >
+                                    <input
+                                    type="text"
+                                    class="form-control"
+                                        id="state"
+                                        required
+                                        value="NY">
+                                    </input>
+                                </div>
+
+                                <div class="col-md-2">
+                                    <label for="zip" class="form-label"
+                                        >Zip</label
+                                    >
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="zip"
+                                        placeholder=""
+                                        value="11235"
+                                        required />
+                                </div> 
+                            </div>
+
+                            <hr class="my-4" />
+
+
+                            <!-- <button
+                                class="w-100 btn btn-primary btn-lg"
+                                type="submit">
+                                Continue to checkout
+                            </button> -->
+                        </form>
+                    </div>
+                    <div class="col-md-5 col-lg-4 order-md-last">
+                      <div class="coll">
+                        <img src="https://m.media-amazon.com/images/I/51565KFuEJL._SX300_SY300_QL70_FMwebp_.jpg" class="card-img-top" alt="tooth paste">
+                        <div class="card-body">
+                          <h5
+                          class="d-flex justify-content-between align-items-center mb-3">
+                          <span class="text">Oral Basics Soft Toothbrush, Pack of 6</span>
+
+                          </h5>
+                        <ul class="list-group mb-3">
+                          <li
+                              class="list-group-item d-flex justify-content-between lh-sm">
+                              <div>
+                                  <h6 class="my-0">Barcode</h6>
+                              </div>
+                              <span class="text-body-secondary">B023456</span>
+                          </li>
+                          <li
+                              class="list-group-item d-flex justify-content-between lh-sm">
+                              <div>
+                                  <h6 class="my-0">Other code</h6>
+                              </div>
+                              <span class="text-body-secondary">1345754</span>
+                          </li>
+                          <li
+                              class="list-group-item d-flex justify-content-between lh-sm">
+                              <div>
+                                  <h6 class="my-0">Quantity</h6>
+                              </div>
+                              <span class="text-body-secondary">5</span>
+                          </li>
+                          <li
+                          class="list-group-item d-flex justify-content-between bg-body-tertiary">
+                          <div>
+                              <h6 class="my-0">Price</h6>
+                          </div>
+                          <span class="text-body-secondary">$2</span>
+                      </li>
+                          <li
+                              class="list-group-item d-flex justify-content-between bg-body-tertiary">
+                              <div class="text-success">
+                                  <h6 class="my-0">Discount</h6>
+                                  <small>EXAMPLECODE</small>
+                              </div>
+                              <span class="text-success">−$5</span>
+                          </li>
+                          <li
+                              class="list-group-item d-flex justify-content-between">
+                              <span>Total (USD)</span>
+                              <strong>$20</strong>
+                          </li>
+                      </ul>
+                      </div>
+                      
+                      <div>
+                        <h5
+                            class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="text">Customer notes</span>
+                        </h5>
+                        <ul class="list-group mb-3">
+                            <li
+                                class="list-group-item d-flex justify-content-between lh-sm">
+                                <div>
+                                    <h6 class="my-0">Promotion Total</h6>
+                                </div>
+                                <span class="text-success">−$5</span>
+                            </li>
+                            <li
+                                class="list-group-item d-flex justify-content-between lh-sm">
+                                <div>
+                                    <h6 class="my-0">Order total</h6>
+                                </div>
+                                <span class="text-body-secondary">$15</span>
+                            </li>
+                            <li
+                              class="list-group-item d-flex justify-content-between bg-body-tertiary">
+                              <div class="text-success">
+                                  <h6 class="my-0">Transactions Fees</h6>
+                              </div>
+                              <span class="text-success">−$2.25</span>
+                          </li>
+                          <li
+                            class="list-group-item d-flex justify-content-between bg-body-tertiary">
+                            <div class="text-success">
+                                <h6 class="my-0">Fulfilment Fees</h6>
+                            </div>
+                            <span class="text-success">−$3.50</span>
+                          </li>
+                          <li
+                            class="list-group-item d-flex justify-content-between lh-sm">
+                            <div>
+                                <h6 class="my-0">Net Proceeds</h6>
+                            </div>
+                            <span class="text-body-secondary">$9.55</span>
+                        </li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+            </main>
+            <div class="d-flex gap-2 justify-content-left py-3">
+              <button class="btn bg-amz-success text-white type="button">Save</button>
+              <button class="btn bg-amz-cancel type="button">Refund</button>
+              <button class="btn btn-request text-white type="button">Request a review</button>
+              <button class="btn btn-request text-white type="button">Request FBA Reimbursement</button>
+              <button class="btn btn-contact text-white type="button">Contact Buyer</button>
+              <button class="btn btn-print text-white type="button">Print</button>
+
+            </div>
+        </div>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+    </body>
+</html>

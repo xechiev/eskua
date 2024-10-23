@@ -1,0 +1,29 @@
+.bg-body-tertiary {
+  background-color: #f5f9fa !important;
+}
+
+.g-3 {
+  padding: 0.35rem 0;
+}
+
+.form-label {
+  color: rgb(0 47 57);
+  margin: .5rem 0 0 0;
+  font-weight: 500;
+}
+
+.text-primary {
+  font-size: 1.4rem;
+}
+
+.btn-request {
+  background-color: #365e64
+}
+
+.btn-contact {
+  background-color: #1f60a5
+}
+
+.btn-print {
+  background-color: #202b80
+}
