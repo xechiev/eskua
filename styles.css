@@ -1,14 +1,51 @@
 .bg-body-tertiary {
   background-color: #f5f9fa !important;
+  margin-top: 2%;
 }
 
-.g-3 {
-  padding: 0.35rem 0;
+.container-main {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: .75rem;
+  padding: 0 5% 5% 5% ;
+}
+
+.orders-info {
+  font-weight: 400;
+}
+
+.customer-info {
+  border: 2px solid #869d95;
+  border-radius: 5px;
+}
+
+.customer-notes {
+  border: 2px solid #869d95;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 5px;
+  margin-right: 5px;
+}
+
+.row > .col-md-4:last-child {
+  margin-right: 0;
+}
+
+.row-notes {
+  flex-wrap: nowrap;
+}
+
+.proceeds-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25px;
 }
 
 .form-label {
   color: rgb(0 47 57);
-  margin: .5rem 0 0 0;
   font-weight: 500;
 }
 
@@ -16,14 +53,10 @@
   font-size: 1.4rem;
 }
 
-.btn-request {
-  background-color: #365e64
+button#btn-request {
+  background-color: #365e64 !important
 }
 
-.btn-contact {
-  background-color: #1f60a5
-}
-
-.btn-print {
-  background-color: #202b80
+button#btn-contact {
+  background-color: #1f60a5 !important
 }
